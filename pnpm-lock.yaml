@@ -15,6 +15,7 @@ specifiers:
   '@typescript-eslint/parser': ^5.30.5
   '@waylaidwanderer/chatgpt-api': ^1.16.1
   chatgpt: ^4.7.1
+  cors: ^2.8.5
   eslint: ^8.19.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-prettier: ^4.2.1
@@ -36,6 +37,7 @@ dependencies:
   '@nestjs/platform-express': 9.3.9_77foi4w27ghy47yutmnzv7krjy
   '@waylaidwanderer/chatgpt-api': 1.16.1
   chatgpt: 4.7.1
+  cors: 2.8.5
   reflect-metadata: 0.1.13
   rxjs: 7.8.0
 
