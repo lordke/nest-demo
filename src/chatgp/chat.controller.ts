@@ -21,12 +21,12 @@ interface IBody {
 export class ChatController {
   constructor(private readonly appService: ChatService) {}
 
-  @Get('/hello')
-  async getHello(@Query() query: IQuery) {
-    const q = query.q;
-    await this.appService.test(q);
-    return this.appService.getHello();
-  }
+  // @Get('/hello')
+  // async getHello(@Query() query: IQuery) {
+  //   const q = query.q;
+  //   await this.appService.test(q);
+  //   return this.appService.getHello();
+  // }
   @Post('/log')
   async log(@Body() data: IBody, @Req() request: Request) {
     const ip = (request as any)?.ip;
