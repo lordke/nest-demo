@@ -27,7 +27,7 @@ export class ChatController {
   //   await this.appService.test(q);
   //   return this.appService.getHello();
   // }
-  @Post('/log')
+  @Post('/next')
   async log(@Body() data: IBody, @Req() request: Request) {
     const ip = (request as any)?.ip;
 
